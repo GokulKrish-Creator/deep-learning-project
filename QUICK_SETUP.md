@@ -28,3 +28,24 @@ If `py` isn't recognized and the same Python executable used for your AutoSelect
 Then double-click `run_app.bat`.
 
 **Note:** TensorFlow compatibility with very new Python versions can vary. If installation fails under Python 3.14, install Python 3.11 or 3.12 from python.org, create `.venv` with that interpreter, then install requirements. Do not reuse the AutoSelect environment because this app needs TensorFlow.
+
+
+## Trained Model File
+
+The trained CNN model is not currently included in this GitHub repository because it exceeds the standard file upload limit.
+
+Before running the application, obtain the trained model file named `deepvision_cnn.keras` and place it here:
+
+`laptop_app/models/deepvision_cnn.keras`
+
+The `class_names.json` file must remain in the same `models` folder.
+
+Without the trained model file, the application may not be able to make predictions.
+
+## Project Folder Locations
+
+- Training notebook: `colab_training/DeepVision_AI_CNN_Training.ipynb`
+- Application: `laptop_app/app.py`
+- Dependencies: `laptop_app/requirements.txt`
+- Windows launcher: `laptop_app/run_app.bat`
+- Model files: `laptop_app/models/`
