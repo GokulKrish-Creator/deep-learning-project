@@ -32,7 +32,21 @@ Then double-click `run_app.bat`.
 
 ## Trained Model File
 
-The trained CNN model is not currently included in this GitHub repository because it exceeds the standard file upload limit.
+The trained CNN model is hosted on Google Drive because it exceeds GitHub's standard file upload limit.
+
+Download the Model
+
+Download deepvision_cnn.keras using the Google Drive link below.
+
+Place the downloaded file inside laptop_app/models/.
+
+Confirm that class_names.json is in the same folder.
+
+Google Drive download: https://drive.google.com/file/d/1wSJbGYj8OaDiPGlGO3dJrReDPnbf3Sx6/view?usp=sharing
+
+Important
+
+The application requires the trained model file to make predictions. Make sure the downloaded filename is exactly deepvision_cnn.keras.
 
 Before running the application, obtain the trained model file named `deepvision_cnn.keras` and place it here:
 
