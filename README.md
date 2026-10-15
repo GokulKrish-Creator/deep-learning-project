@@ -168,3 +168,18 @@ DeepVision_AI_DL_Project/
 5. Run `run_app.bat` on Windows.
 
 **Important:** The folder structure above represents the original intended project layout. The files currently uploaded to GitHub are at the repository root, so they must be moved or arranged into these folders for the repository to match this structure. The trained model file must also be provided before the application can perform predictions.
+
+
+## 📥 Download the Trained Model
+
+The trained CNN model is hosted separately on Google Drive because it exceeds GitHub's standard file upload limit.
+
+**[Download `deepvision_cnn.keras`]: https://drive.google.com/file/d/1wSJbGYj8OaDiPGlGO3dJrReDPnbf3Sx6/view?usp=sharing **
+
+After downloading, place the file in:
+
+`laptop_app/models/deepvision_cnn.keras`
+
+Keep `class_names.json` in the same folder.
+
+For setup and execution instructions, see [QUICK_SETUP.md](QUICK_SETUP.md).
